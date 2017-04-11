@@ -70,15 +70,15 @@ type Geolocation struct {
 type AssetState struct {
 	AssetID        *string      `json:"assetID,omitempty"`        // all assets must have an ID, primary key of contract
 	Location       *Geolocation `json:"location,omitempty"`       // current asset location
-	maxTemperature *float64     `json:"maxTemperature,omitempty"` // asset temp
-	maxHumidity    *float64     `json:"maxHumidity,omitempty"`    // asset humidity
+	MaxTemperature *float64     `json:"maxTemperature,omitempty"` // asset temp
+	MaxHumidity    *float64     `json:"maxHumidity,omitempty"`    // asset humidity
 	Carrier        *string      `json:"carrier,omitempty"`        // the name of the carrier
 	//Event          *Event       `json:"event,omitempty"`
 }
 
 type Event struct {
-	name *string `json:"name,omitempty"` // name of the Watson IoT event received
-	date *string `json:"date,omitempty"` // date of reception
+	Name *string `json:"name,omitempty"` // name of the Watson IoT event received
+	Date *string `json:"date,omitempty"` // date of reception
 }
 
 type TradeState struct {
