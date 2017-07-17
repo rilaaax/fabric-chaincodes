@@ -24,6 +24,10 @@ var schemas = `
                                 "properties": {},
                                 "type": "object"
                             },
+                            "humidity": {
+                                "description": "Humidity of the asset in PERCENTAGE.",
+                                "type": "number"
+                            },
                             "location": {
                                 "description": "A geographical coordinate",
                                 "properties": {
@@ -841,6 +845,10 @@ var schemas = `
                                 "properties": {},
                                 "type": "object"
                             },
+                            "humidity": {
+                                "description": "Humidity of the asset in PERCENTAGE.",
+                                "type": "number"
+                            },
                             "location": {
                                 "description": "A geographical coordinate",
                                 "properties": {
@@ -925,6 +933,10 @@ var schemas = `
                     "description": "Application-managed state. Opaque to contract.",
                     "properties": {},
                     "type": "object"
+                },
+                "humidity": {
+                    "description": "Humidity of the asset in PERCENTAGE.",
+                    "type": "number"
                 },
                 "location": {
                     "description": "A geographical coordinate",

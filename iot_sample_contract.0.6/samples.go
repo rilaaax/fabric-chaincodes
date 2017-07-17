@@ -13,12 +13,13 @@ var samples = `
         "assetID": "The ID of a managed asset. The resource focal point for a smart contract.",
         "carrier": "transport entity currently in possession of asset",
         "extension": {},
+        "humidity": 123.456,
         "location": {
             "latitude": 123.456,
             "longitude": 123.456
         },
         "temperature": 123.456,
-        "timestamp": "2017-07-17T18:09:40.780142067+02:00"
+        "timestamp": "2017-07-17T18:15:24.068548683+02:00"
     },
     "initEvent": {
         "nickname": "TRADELANE",
@@ -52,7 +53,7 @@ var samples = `
             "longitude": 123.456
         },
         "temperature": 123.456,
-        "timestamp": "2017-07-17T18:09:40.780247888+02:00",
+        "timestamp": "2017-07-17T18:15:24.068663057+02:00",
         "txntimestamp": "Transaction timestamp matching that in the blockchain.",
         "txnuuid": "Transaction UUID matching that in the blockchain."
     }

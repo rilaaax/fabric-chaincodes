@@ -821,6 +821,10 @@
                     "type": "number",
                     "description": "Temperature of the asset in CELSIUS."
                 },
+                "humidity": {
+                    "type": "number",
+                    "description": "Humidity of the asset in PERCENTAGE."
+                },
                 "carrier": {
                     "type": "string",
                     "description": "transport entity currently in possession of asset"
