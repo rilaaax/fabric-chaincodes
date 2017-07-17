@@ -54,7 +54,11 @@ func (a *ArgsMap) executeRules(alerts *AlertStatus) (bool, error) {
 	if err != nil {
 		return true, err
 	}
-	// rule 2 -- ???
+	// rule 2 -- overhum
+	err = internal.overHumRule(a)
+	if err != nil {
+		return true, err
+	}
 
 	// transform for external consumption
 	*alerts = internal.asAlertStatus()
@@ -109,6 +113,27 @@ func (alerts *AlertStatusInternal) overTempRule(a *ArgsMap) error {
 		}
 	}
 	alerts.clearAlert(AlertsOVERTEMP)
+	return nil
+}
+
+func (alerts *AlertStatusInternal) overHumRule(a *ArgsMap) error {
+	const humidityThreshold float64 = 60 // (inclusive good value)
+
+	tbytes, found := getObject(*a, "humidity")
+	if found {
+		t, found := tbytes.(float64)
+		if found {
+			if t > humidityThreshold {
+				alerts.raiseAlert(AlertsOVERHUM)
+				return nil
+			}
+		} else {
+			log.Warning("overHumRule: humidity not type JSON Number, alert status not changed")
+			// do nothing to the alerts status
+			return nil
+		}
+	}
+	alerts.clearAlert(AlertsOVERHUM)
 	return nil
 }
 
