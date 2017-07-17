@@ -36,10 +36,6 @@ var schemas = `
                                 },
                                 "type": "object"
                             },
-                            "tempThreshold": {
-                                "description": "Temperature threshold inclusive in CELSUIS.",
-                                "type": "number"
-                            },
                             "temperature": {
                                 "description": "Temperature of the asset in CELSIUS.",
                                 "type": "number"
@@ -857,10 +853,6 @@ var schemas = `
                                 },
                                 "type": "object"
                             },
-                            "tempThreshold": {
-                                "description": "Temperature threshold inclusive in CELSUIS.",
-                                "type": "number"
-                            },
                             "temperature": {
                                 "description": "Temperature of the asset in CELSIUS.",
                                 "type": "number"
@@ -945,10 +937,6 @@ var schemas = `
                         }
                     },
                     "type": "object"
-                },
-                "tempThreshold": {
-                    "description": "Temperature threshold inclusive in CELSUIS.",
-                    "type": "number"
                 },
                 "temperature": {
                     "description": "Temperature of the asset in CELSIUS.",

@@ -17,9 +17,8 @@ var samples = `
             "latitude": 123.456,
             "longitude": 123.456
         },
-        "tempThreshold": 123.456,
         "temperature": 123.456,
-        "timestamp": "2017-07-17T16:41:24.723607198+02:00"
+        "timestamp": "2017-07-17T18:09:40.780142067+02:00"
     },
     "initEvent": {
         "nickname": "TRADELANE",
@@ -53,7 +52,7 @@ var samples = `
             "longitude": 123.456
         },
         "temperature": 123.456,
-        "timestamp": "2017-07-17T16:41:24.723760769+02:00",
+        "timestamp": "2017-07-17T18:09:40.780247888+02:00",
         "txntimestamp": "Transaction timestamp matching that in the blockchain.",
         "txnuuid": "Transaction UUID matching that in the blockchain."
     }

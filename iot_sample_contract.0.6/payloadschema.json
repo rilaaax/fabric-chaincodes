@@ -821,10 +821,6 @@
                     "type": "number",
                     "description": "Temperature of the asset in CELSIUS."
                 },
-                "tempThreshold": {
-                    "type": "number",
-                    "description": "Temperature threshold inclusive in CELSUIS."
-                },
                 "carrier": {
                     "type": "string",
                     "description": "transport entity currently in possession of asset"

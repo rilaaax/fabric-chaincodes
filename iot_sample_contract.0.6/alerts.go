@@ -31,7 +31,7 @@ type Alerts int32
 const (
 	// AlertsOVERTEMP the over temperature alert
 	AlertsOVERTEMP Alerts = 0
-	AlertsOVERTEMP Alerts = 1
+	AlertsOVERHUM  Alerts = 1
 
 	// AlertsSIZE is to be maintained always as 1 greater than the last alert, giving a size
 	AlertsSIZE Alerts = 2
