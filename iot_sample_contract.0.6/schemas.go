@@ -36,6 +36,14 @@ var schemas = `
                                     },
                                     "longitude": {
                                         "type": "number"
+                                    },
+                                    "radius": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
+                                    "timestamp": {
+                                        "description": "Epoch time when location was measured",
+                                        "type": "number"
                                     }
                                 },
                                 "type": "object"
@@ -307,6 +315,14 @@ var schemas = `
                                     },
                                     "longitude": {
                                         "type": "number"
+                                    },
+                                    "radius": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
+                                    "timestamp": {
+                                        "description": "Epoch time when location was measured",
+                                        "type": "number"
                                     }
                                 },
                                 "type": "object"
@@ -450,6 +466,14 @@ var schemas = `
                                     "type": "number"
                                 },
                                 "longitude": {
+                                    "type": "number"
+                                },
+                                "radius": {
+                                    "description": "Horizontal accuracy of location in meters",
+                                    "type": "number"
+                                },
+                                "timestamp": {
+                                    "description": "Epoch time when location was measured",
                                     "type": "number"
                                 }
                             },
@@ -600,6 +624,14 @@ var schemas = `
                                     },
                                     "longitude": {
                                         "type": "number"
+                                    },
+                                    "radius": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
+                                    "timestamp": {
+                                        "description": "Epoch time when location was measured",
+                                        "type": "number"
                                     }
                                 },
                                 "type": "object"
@@ -737,6 +769,14 @@ var schemas = `
                                     },
                                     "longitude": {
                                         "type": "number"
+                                    },
+                                    "radius": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
+                                    "timestamp": {
+                                        "description": "Epoch time when location was measured",
+                                        "type": "number"
                                     }
                                 },
                                 "type": "object"
@@ -857,6 +897,14 @@ var schemas = `
                                     },
                                     "longitude": {
                                         "type": "number"
+                                    },
+                                    "radius": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
+                                    "timestamp": {
+                                        "description": "Epoch time when location was measured",
+                                        "type": "number"
                                     }
                                 },
                                 "type": "object"
@@ -945,6 +993,14 @@ var schemas = `
                             "type": "number"
                         },
                         "longitude": {
+                            "type": "number"
+                        },
+                        "radius": {
+                            "description": "Horizontal accuracy of location in meters",
+                            "type": "number"
+                        },
+                        "timestamp": {
+                            "description": "Epoch time when location was measured",
                             "type": "number"
                         }
                     },
@@ -1069,6 +1125,14 @@ var schemas = `
                             "type": "number"
                         },
                         "longitude": {
+                            "type": "number"
+                        },
+                        "radius": {
+                            "description": "Horizontal accuracy of location in meters",
+                            "type": "number"
+                        },
+                        "timestamp": {
+                            "description": "Epoch time when location was measured",
                             "type": "number"
                         }
                     },

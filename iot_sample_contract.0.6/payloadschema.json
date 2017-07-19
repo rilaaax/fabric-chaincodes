@@ -721,6 +721,14 @@
                 },
                 "longitude": {
                     "type": "number"
+                },
+                "radius": {
+                    "type": "number",
+                    "description": "Horizontal accuracy of location in meters"
+                },
+                "timestamp": {
+                    "type": "number",
+                    "description": "Epoch time when location was measured"
                 }
             }
         },
