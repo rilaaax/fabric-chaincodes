@@ -15,13 +15,13 @@ var samples = `
         "extension": {},
         "humidity": 123.456,
         "location": {
+            "accuracy": 123.456,
             "latitude": 123.456,
             "longitude": 123.456,
-            "radius": 123.456,
-            "timestamp": 123.456
+            "measuredDateTime": 123.456
         },
         "temperature": 123.456,
-        "timestamp": "2017-07-19T21:20:46.260065837+02:00"
+        "timestamp": "2017-07-19T21:35:28.287983913+02:00"
     },
     "initEvent": {
         "nickname": "TRADELANE",
@@ -51,13 +51,13 @@ var samples = `
             "redirectedFromFunction": "function that originally received the event"
         },
         "location": {
+            "accuracy": 123.456,
             "latitude": 123.456,
             "longitude": 123.456,
-            "radius": 123.456,
-            "timestamp": 123.456
+            "measuredDateTime": 123.456
         },
         "temperature": 123.456,
-        "timestamp": "2017-07-19T21:20:46.260168488+02:00",
+        "timestamp": "2017-07-19T21:35:28.288073264+02:00",
         "txntimestamp": "Transaction timestamp matching that in the blockchain.",
         "txnuuid": "Transaction UUID matching that in the blockchain."
     }

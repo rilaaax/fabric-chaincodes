@@ -722,11 +722,11 @@
                 "longitude": {
                     "type": "number"
                 },
-                "radius": {
+                "accuracy": {
                     "type": "number",
                     "description": "Horizontal accuracy of location in meters"
                 },
-                "timestamp": {
+                "measuredDateTime": {
                     "type": "number",
                     "description": "Epoch time when location was measured"
                 }

@@ -31,17 +31,17 @@ var schemas = `
                             "location": {
                                 "description": "A geographical coordinate",
                                 "properties": {
+                                    "accuracy": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
                                     "latitude": {
                                         "type": "number"
                                     },
                                     "longitude": {
                                         "type": "number"
                                     },
-                                    "radius": {
-                                        "description": "Horizontal accuracy of location in meters",
-                                        "type": "number"
-                                    },
-                                    "timestamp": {
+                                    "measuredDateTime": {
                                         "description": "Epoch time when location was measured",
                                         "type": "number"
                                     }
@@ -310,17 +310,17 @@ var schemas = `
                             "location": {
                                 "description": "A geographical coordinate",
                                 "properties": {
+                                    "accuracy": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
                                     "latitude": {
                                         "type": "number"
                                     },
                                     "longitude": {
                                         "type": "number"
                                     },
-                                    "radius": {
-                                        "description": "Horizontal accuracy of location in meters",
-                                        "type": "number"
-                                    },
-                                    "timestamp": {
+                                    "measuredDateTime": {
                                         "description": "Epoch time when location was measured",
                                         "type": "number"
                                     }
@@ -462,17 +462,17 @@ var schemas = `
                         "location": {
                             "description": "A geographical coordinate",
                             "properties": {
+                                "accuracy": {
+                                    "description": "Horizontal accuracy of location in meters",
+                                    "type": "number"
+                                },
                                 "latitude": {
                                     "type": "number"
                                 },
                                 "longitude": {
                                     "type": "number"
                                 },
-                                "radius": {
-                                    "description": "Horizontal accuracy of location in meters",
-                                    "type": "number"
-                                },
-                                "timestamp": {
+                                "measuredDateTime": {
                                     "description": "Epoch time when location was measured",
                                     "type": "number"
                                 }
@@ -619,17 +619,17 @@ var schemas = `
                             "location": {
                                 "description": "A geographical coordinate",
                                 "properties": {
+                                    "accuracy": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
                                     "latitude": {
                                         "type": "number"
                                     },
                                     "longitude": {
                                         "type": "number"
                                     },
-                                    "radius": {
-                                        "description": "Horizontal accuracy of location in meters",
-                                        "type": "number"
-                                    },
-                                    "timestamp": {
+                                    "measuredDateTime": {
                                         "description": "Epoch time when location was measured",
                                         "type": "number"
                                     }
@@ -764,17 +764,17 @@ var schemas = `
                             "location": {
                                 "description": "A geographical coordinate",
                                 "properties": {
+                                    "accuracy": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
                                     "latitude": {
                                         "type": "number"
                                     },
                                     "longitude": {
                                         "type": "number"
                                     },
-                                    "radius": {
-                                        "description": "Horizontal accuracy of location in meters",
-                                        "type": "number"
-                                    },
-                                    "timestamp": {
+                                    "measuredDateTime": {
                                         "description": "Epoch time when location was measured",
                                         "type": "number"
                                     }
@@ -892,17 +892,17 @@ var schemas = `
                             "location": {
                                 "description": "A geographical coordinate",
                                 "properties": {
+                                    "accuracy": {
+                                        "description": "Horizontal accuracy of location in meters",
+                                        "type": "number"
+                                    },
                                     "latitude": {
                                         "type": "number"
                                     },
                                     "longitude": {
                                         "type": "number"
                                     },
-                                    "radius": {
-                                        "description": "Horizontal accuracy of location in meters",
-                                        "type": "number"
-                                    },
-                                    "timestamp": {
+                                    "measuredDateTime": {
                                         "description": "Epoch time when location was measured",
                                         "type": "number"
                                     }
@@ -989,17 +989,17 @@ var schemas = `
                 "location": {
                     "description": "A geographical coordinate",
                     "properties": {
+                        "accuracy": {
+                            "description": "Horizontal accuracy of location in meters",
+                            "type": "number"
+                        },
                         "latitude": {
                             "type": "number"
                         },
                         "longitude": {
                             "type": "number"
                         },
-                        "radius": {
-                            "description": "Horizontal accuracy of location in meters",
-                            "type": "number"
-                        },
-                        "timestamp": {
+                        "measuredDateTime": {
                             "description": "Epoch time when location was measured",
                             "type": "number"
                         }
@@ -1121,17 +1121,17 @@ var schemas = `
                 "location": {
                     "description": "A geographical coordinate",
                     "properties": {
+                        "accuracy": {
+                            "description": "Horizontal accuracy of location in meters",
+                            "type": "number"
+                        },
                         "latitude": {
                             "type": "number"
                         },
                         "longitude": {
                             "type": "number"
                         },
-                        "radius": {
-                            "description": "Horizontal accuracy of location in meters",
-                            "type": "number"
-                        },
-                        "timestamp": {
+                        "measuredDateTime": {
                             "description": "Epoch time when location was measured",
                             "type": "number"
                         }
